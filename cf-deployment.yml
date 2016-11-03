@@ -489,6 +489,8 @@ instance_groups:
   - z1
   - z2
   instances: 3
+  update:
+    max_in_flight: 1
   vm_type: r3.xlarge
   vm_extensions:
   - 100GB_ephemeral_disk
